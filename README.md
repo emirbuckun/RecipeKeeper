@@ -26,6 +26,7 @@ liked recipes can be added to favorites and users can comment on each other's re
 ├── RecipeKeeper.sln
 ```
 
+- `.vscode` contains workspace settings as well as configurations.
 - `Core` is core layer of the solution. It contains app, data access and entity projects.
 - `Infrastructure` is infrastructure layer of the solution. It contains data access projects.
 - `Presentation` is presentation layer of the solution. It contains Web API and Web UI projects.
@@ -36,6 +37,8 @@ liked recipes can be added to favorites and users can comment on each other's re
 - `RecipeKepeer.DataAccess.InMemory` is a data access layer for in memory storage.
 - `RecipeKepeer.Api` is a Web API used by Web UI.
 - `RecipeKepeer.WebUI` is a Vite project with React template.
+- `.gitignore` specifies intentionally untracked files that Git should ignore.
+- `RecipeKeeper.sln` is a structure for organizing projects.
 
 ## Setting Up
 
